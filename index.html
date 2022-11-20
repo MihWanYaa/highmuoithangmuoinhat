@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/994961578669641808.webp" type="image/x-icon">
+    <title>From MW, TG, AL w/ ❤ :3</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- Access GGFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+      <!-- Font for Contents -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+      <!-- Font for Buttons -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    
+    <!-- Link CSSs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!-- JS Libs -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/8c43e2a8fe.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <!-- -- Music autoplay -- -->
+    <div id="page_0" class="audioDecora">
+      <p id="guideSet">Để có trải nghiệm đỡ nhàm chán, hãy thêm 1 chút nhạc vào nào :33</p>
+      <p id="thanksSet">Cảm ơn so muchh <i class="fa-sharp fa-solid fa-list-check"></i></p>
+      <p id="musicNoteSet_2">
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+      </p>
+      <p id="musicNoteSet_1">
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+      </p>
+      <p id="musicNoteSet_3">
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+      </p>
+      <p id="musicNoteSet_4">
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-music"></i>
+      </p>
+      
+      <div id="audioSet" onmouseclick="opa_0()">
+        <audio id="musicAll" controls loop>
+            <source src="./music/ur smile _ slowed~reverb.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+
+    <!-- -- BODY 1 // NATURE SCENE -- -->
+    <div id="page_1" class="flex flex-col justify-between h-screen">
+
+    <!-- -- Loading Play Button -- -->
+      <div id="loading_Page">
+          <div class="square one"></div>
+          <div class="square two"></div>
+          <div class="square three"></div>
+          <div class="square four"></div>
+      </div>
+
+        <!-- -- Play Button -- -->
+      <button id="playButton" onclick="clickP_btn()">
+          Vào :3
+      </button>
+      <span id="timeNotif">*sau 38 giây sẽ hiện ra nút <b>Tiếp :3</b></span> 
+
+        <!-- -- Continue Button -- -->
+      <button id="continueButton" onclick="clickC_btn()">
+          Tiếp :3 
+      </button>
+
+        <!--  -- Loading Exit Button -- -->
+      <div id="loading_Exit" class="load-wrapp">
+        <div class="load-4"> 
+            <div class="ring-1"></div>
+        </div>
+      </div>
+
+          <!-- -- Exit Button -- -->
+      <button id="exitButton" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Thoát <i class="fa-solid fa-person-through-window"></i>
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Thoát trang :( ?</h5>
+              <button type="button" class="btn-outline-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" style="font-size: 24px;">
+              Xác nhận thoát trang ?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-primary" id="ePageConfirm" onclick="exitPage()">Xác nhận</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -- SKY -- -->
+      <div id="sky" style="height:calc(100vh/3);">
+          <div class="flex flex-nowrap">
+            <!-- Sun -->
+            <img id="sun_1" class="sun1" src="./img/sun_r_corner.png" width="180px">
+
+            <!-- Clouds -->
+            <img id="cloud_3" src="./img/cloud_3.png" width="200px">
+            <img id="cloud_6" src="./img/cloud_6.png" width="200px">
+            <img id="cloud_4" src="./img/cloud_4.png" width="200px">
+            <img id="cloud_2" src="./img/cloud_2.png" width="200px">
+            <img id="cloud_7" src="./img/cloud_7.png" width="200px">
+            <img id="cloud_1" src="./img/cloud_1.png" width="200px">
+        </div>
+      </div>
+
+      <!-- -- ROAD -- -->
+      <div id="road" style="height:calc(100vh/3);">
+
+        <!-- Man cycling -->
+        <img class="manCycling" src="./img/sc-unscreen (1).gif" width="400px">
+
+      <!-- Grass -->
+        <img class="grass_1" src="./img/grass.png"> 
+        <img class="grass_2" src="./img/grass.png"> 
+      <!-- Flowers -->
+        <img class="flower_1" src="./img/hoa_do.png" width="20px">
+        <img class="flower_2" src="./img/hoa_trang.png" width="20px">
+        <img class="flower_3" src="./img/hoa_trang.png" width="20px">
+        <img class="flower_4" src="./img/hoa_tim.png" width="20px">
+        <img class="flower_5" src="./img/hoa_do.png" width="20px">
+        <img class="flower_6" src="./img/hoa_tim.png" width="20px">
+        <img class="flower_7" src="./img/hoa_trang.png" width="20px">
+        <img class="flower_8" src="./img/hoa_tim.png" width="20px">
+        <img class="flower_9" src="./img/hoa_trang.png" width="20px">
+        <img class="flower_10" src="./img/hoa_do.png" width="20px">
+        <img class="flower_11" src="./img/hoa_do.png" width="20px">
+        <img class="flower_12" src="./img/hoa_tim.png" width="20px">
+        <img class="flower_13" src="./img/hoa_trang.png" width="20px">
+        <img class="flower_14" src="./img/hoa_tim.png" width="20px">
+        <img class="flower_15" src="./img/hoa_do.png" width="20px">
+        <img class="flower_16" src="./img/hoa_tim.png" width="20px">
+        <img class="flower_17" src="./img/hoa_do.png" width="20px">
+        <img class="flower_18" src="./img/hoa_trang.png" width="20px">
+        <img class="flower_19" src="./img/hoa_trang.png" width="20px">
+        <img class="flower_20" src="./img/hoa_tim.png" width="20px">
+        <img class="flower_21" src="./img/hoa_do.png" width="20px">
+        <img class="flower_22" src="./img/hoa_trang.png" width="20px">
+        <img class="flower_23" src="./img/hoa_tim.png" width="20px">
+        
+      <!-- Bushes & Trees -->
+        <img class="bush_1" src="./img/tree 4.png">
+        <img class="bush_2" src="./img/bush_2.png">
+        <img class="bush_3" src="./img/bush_2.png">
+        <img class ="tree_1" src="./img/tree 3.png">
+      </div>
+
+      <!-- -- DIRT -- -->
+      <div id="dirt" style="height:calc(100vh/3);">
+
+        <!-- Made Of HTML - CSS - JS -->
+        <div class="icon_Language flex flex-row gap-3 py-3">
+            <img class="basis-1/2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="35px" title="HTML5">
+            <img class="basis-1/2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="35px" title="CSS3">
+            <img class="basis-1/2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="35px" title="JavaScript">
+        </div>
+      </div>
+
+      <!-- -- CONTENTS APPEAR WHEN PLAY BUTTON CLICKED -- -->
+      <div id="pB_showContent">
+        <p id="pB_content_0" class="pB_AnimateClass_All">Xin chào thầy cô :33</p>
+        <p id="pB_content_1" class="pB_AnimateClass_All">Hôm nay là ngày <b>20 - 11</b>, em xin có món quà nhỏ tặng thầy cô <b>:3</b> <i class="fa-solid fa-gift"></i></p>
+        <p id="pB_content_2" class="pB_AnimateClass_All">Em thay mặt các bạn chúc thầy cô luôn mạnh khoẻ, hạnh phúc, thành đạt trong cuộc sống và trong công việc của mình</p>
+        <p id="pB_content_3" class="pB_AnimateClass_All">Em xin gửi đến thầy cô những tình cảm chân thành và lòng biết ơn sâu sắc</p>
+        <p id="pB_content_3_5" class="pB_AnimateClass_All">Cảm ơn thầy cô đã luôn sát cánh bên em trong những chặng đường học tập đầy khó khăn</p>
+        <p id="pB_content_4" class="pB_AnimateClass_All">Với mong muốn dành tặng thầy cô nhân ngày 20-11 một điều gì đó thật ý nghĩa, em đã lên ý tưởng và làm nên món quà này bằng thời gian và tâm huyết</p>
+        <p id="pB_content_5" class="pB_AnimateClass_All">Tuy nhiên, em biết món quà tinh thần này chắc chắn không thể thiếu những sai sót</p>
+        <p id="pB_content_6" class="pB_AnimateClass_All">Mong thầy cô đón nhận tấm lòng của chúng em <i class="fa-solid fa-heart-circle-check"></i></p>
+        <p id="pB_content_7" class="pB_AnimateClass_All">Một sản phẩm của <b>MWan~</b>, <b>TrDang</b>, <b>mintmeeal</b> :))</p>
+        <p id="pB_content_8" class="pB_AnimateClass_All">Ấn <b>"Tiếp"</b></p>
+      </div>
+    </div>
+
+    <!-- -- BODY 2 // NORMAL IMGS -- -->
+    <div id="page_2" class="flex flex-col justify-between h-screen">
+      <div id="page_2_Imgs"  style="width: 100vw; height: 100vh;">
+        <img id="page_2_pic_1" src="./img/twang.jpg" width="405px">
+        <img id="page_2_pic_2" src="./img/tnam.jpg" width="455px">
+      </div>
+      <div id="page_2_Contents" class="backgroundSetCnts_p2" style=" height: 100vh;">
+          <p id="page_2_Cnt_1">Mọi thứ bước sang một trang mới khi em nhận được tin mình đã đỗ cấp 3!</p>
+          <br><br>
+          <p id="page_2_Cnt_2">Có rất nhiều dự định, những mong đợi, và không thiếu những cảm xúc hỗn tạp</p>
+          <br><br>
+          <p id="page_2_Cnt_3"> Do dịch bệnh căng thẳng mà em không thể tới ngôi trường mới. Những kế hoạch hay dự định ban đầu đã tan biến. Thay vào đó em phải làm quen với màn ảnh nhỏ.</p>
+          <br><br>
+          <p id="page_2_Cnt_4">Là một học sinh mới, chưa thích nghi được với bất cứ điều gì, vô hình chung đã tạo cho em không ít khó khăn.</p>
+          <br><br>
+          <p id="page_2_Cnt_5">Và tệ hơn là nó đã thay đổi những thói quen hằng ngày của em.</p>
+          <br>
+          <p id="page_2_guideNext">- Tiếp -</p>
+      </div>
+      <button id="Continue_2_Button" onclick="clickC_2_btn()">
+        Tiếp tục :3
+      </button>
+    </div>
+
+    <!-- -- BODY 3 // CAROUSEL -- -->
+    <div id="page_3" class="flex flex-col justify-between h-screen">
+      <button id="Continue_3_Button" onclick="clickC_3_btn()">End <i class="fa-solid fa-flag-checkered"></i></button>
+      <div id="showCa">
+        <div class="carousel"></div>
+      </div>
+      <div id="contents_p3_1">
+        <p id="ctnp3_1_1">Trong những tiết học mình cảm thấy cực kì</p>
+        <p id="ctnp3_1_2">căng thẳng trong việc trả lời,</p>
+        <p id="ctnp3_1_3">căng thẳng trong những lần teamwork.</p>
+        <p id="ctnp3_1_4">Việc sinh hoạt của mình cũng rối tung lên.</p>
+        <p id="ctnp3_1_5">Đôi mắt mình làm việc hết sức</p>
+        <p id="ctnp3_1_6">Đôi khi mình cảm thấy nhức đầu vì lượng kiến thức khổng lồ mà mình vật lộn mỗi ngày.</p>
+      </div>
+      <div id="contents_p3_2">
+        <p id="ctnp3_2_1">Từ đó, những khó khăn cũng tan biến dần. Cảm giác lạ lùng cũng mất đi</p>
+        <p id="ctnp3_2_2">Đó là người luôn sẵn sàng giải đáp mọi thắc mắc của mình, thay đổi cách dạy sao cho phù hợp với hoàn cảnh.</p>
+        <p id="ctnp3_2_3">Hay hỏi han và quan tâm, tổ chức rất nhiều hoạt động vui vẻ để khuấy động tinh thần lớp. </p>
+        <p id="ctnp3_2_4">Sẵn sàng chia sẻ và tâm sự riêng và cũng rất hài hước và sâu sắc. Em xin cảm ơn các thầy cô</p>
+      </div>
+      <div id="contents_p3_3">
+        <p id="ctnp3_3_1">Thế nhưng những điều đó dường như đã được giải quyết phần nào khi mình gặp được những người giáo viên tâm lý</p>
+        <p id="ctnp3_3_2">Trong những lúc vui thì vui thật nhưng trong những lúc nghiêm túc thầy cô vẫn rất khắt khe và chỉn chu với công việc.</p>
+      </div>
+    </div>
+
+    <!-- -- BODY 4 // LAST PAGE - END THE JOURNEY - END 20/11 -- -->
+    <div id="all_part_p4" class="grid grid-cols-12" style="height: 100vh">
+
+      <div id="part_1_p4" class="col-start-1 col-span-1" >
+        <div id="thankYou_p4">
+          <p id="thankYou">Cảm ơn thầy cô đã dành ra thời gian<br> trải nghiệm món quà này!</p>
+        </div>
+        <div id="timeline">
+          <div id="tl_part_1">
+            <p id="tl_title">
+              ----------- MỘT SỐ MỐC THỜI GIAN -----------
+            </p>
+            <ul style="padding: 5px 14px 5px 14px;">
+              <li>
+                <p class="timeline_time" id="tl_time_1">19/9</p>
+                <p class="timeline_content" id="tl_ctn_1"> Bắt đầu project</p></p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_2">20/9 - 24/9</p>
+                <p class="timeline_content" id="tl_ctn_2"> Dàn dựng xong layout 1, 2</p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_3">25/9 - 6/10</p>
+                <p class="timeline_content" id="tl_ctn_3"> Build layout 1 và tính năng, đồng thời tìm, cắt, thêm ảnh</p>
+              </li> 
+              <li>
+                <p class="timeline_time" id="tl_time_4">7/10 - 20/10</p>
+                <p class="timeline_content" id="tl_ctn_4"> Xong layout 1, sang layout 2, dựng layout 3 và 4, tìm nhạc</p>
+              </li> 
+              <li>
+                <p class="timeline_time" id="tl_time_5">21/10 - 22/10</p>
+                <p class="timeline_content" id="tl_ctn_5"> họp nhóm thiết kế content cho layout 1, 2</p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_6">23/10 - 24/10</p>
+                <p class="timeline_content" id="tl_ctn_6"> Thêm content vào layout 1</p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_7">25/10</p>
+                <p class="timeline_content" id="tl_ctn_7"> Đập toàn bộ code do nhiều bugs, xây lại :))</p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_8">26/10 - 28/10</p>
+                <p class="timeline_content" id="tl_ctn_8"> Chính thức hoàn thành layout 1 ( speed building )</p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_9">29/10 - 3/11</p>
+                <p class="timeline_content" id="tl_ctn_9"> Ôn thi Giữa Kì 1</p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_10">4/11 - 9/11</p>
+                <p class="timeline_content" id="tl_ctn_10"> Chính thức hoàn thành layout 2</p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_11">10/11 - 15/11</p>
+                <p class="timeline_content" id="tl_ctn_11"> Tạo layout 3, 4</p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_12">16/11 - 17/11</p>
+                <p class="timeline_content" id="tl_ctn_12"> Chính thức hoàn thành layout 3</p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_13">18/11 - 19/11</p>
+                <p class="timeline_content" id="tl_ctn_13"> Chính thức hoàn thành layout 4</p>
+              </li>
+              <li>
+                <p class="timeline_time" id="tl_time_14">20/11</p>
+                <p class="timeline_content" id="tl_ctn_14"> Đẩy code lên Github, hoàn thành sản phẩm!</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="part_2_p4" class="col-start-2 col-span-1">
+        <div id="authorList_p4">
+          
+          <div id="authorList">
+            
+            <p id="ctn">Một sản phẩm chứa đầy tình iu của...</p>
+            <img id="logo_school" src="./img/Logo.png">
+
+            <!-- ? Minh Quân -->
+            <p id="minhWan" style="font-size: 22px;" onmouseover="minhWan_hover()" onmouseout="out()">
+              <i class="fa-regular fa-id-card" style="padding-right: 10px;"></i> 
+              MWan
+            </p> 
+                  <!-- * Contact -->
+              <a id="mW_href" href="https://www.facebook.com/afkishyft07/" target="_blank" style="width: 10%">
+                <i class="fa-brands fa-square-facebook iconSet minhWanFB"></i> 
+                <p style="width: 30%;" class="minhWanFB"> Minh Wan</p>
+              </a> 
+
+              <a id="mW_href_2" class="Insta_hover" href="https://www.instagram.com/mwanire_07" target="_blank">
+                <i class="fa-brands fa-square-instagram iconSet minhWanFB minhWan_iconInsta_hover" style="float: left;"></i>
+                <p style="width: 30%;" class="minhWanFB minhWanInsta_hover"><i>@mwanire_07</i></p>
+                <div class="clear"></div>
+              </a>
+              
+            <!-- ? Trường Giang -->
+            <p id="truongGiang" style="font-size: 22px;" onmouseover="truongGiang_hover()" onmouseout="out()">
+              <i class="fa-regular fa-id-card" style="padding-right: 10px;"></i> 
+              TrDang
+            </p>
+                  <!-- * Contact -->            
+              <a id="tG_href" href="https://www.facebook.com/profile.php?id=100033779325897" target="_blank">
+                <i class="fa-brands fa-square-facebook iconSet truongGiangFB"></i> 
+                <p style="width: 30%;" class="truongGiangFB"> Trường Giang</p>
+              </a> 
+
+              <a id="tG_href_2">
+                <i class="fa-brands fa-square-instagram iconSet truongGiangFB"></i>
+                <p style="width: 30%; color: red;" class="truongGiangFB"><u><i>no data</i></u></p>
+                <div class="clear"></div>
+              </a>
+
+              <!-- ? Thu An -->
+              <p id="thuAl" style="font-size: 22px;" onmouseover="thuAl_hover()" onmouseout="out()">
+                <i class="fa-regular fa-id-card" style="padding-right: 10px;"></i> 
+                mintmeeal
+              </p>
+                   <!-- * Contact -->
+                <a id="tA_href" href="https://www.facebook.com/daisy.peach.1865" target="_blank">
+                  <i class="fa-brands fa-square-facebook iconSet thuAlFB"></i> 
+                  <p style="width: 30%;" class="thuAlFB"> Thu An</p>
+                </a> 
+
+                <a id="tA_href_2" class="Insta_hover" href="https://www.instagram.com/mintmeeal">
+                  <i class="fa-brands fa-square-instagram iconSet thuAlFB thuAl_iconInsta_hover"></i>
+                  <p style="width: 30%" class="thuAlFB thuAlInsta_hover"><i>@mintmeeal</i></p>
+                  <div class="clear"></div>
+                </a>
+            
+            <div id="hoverGradient">
+              <p id="name" style="float: left; padding-right: 3px; color: blue; font-size: 19px;"><u>Tên:</u> </p> <span id="fullName"></span> <div class="clear"></div>
+              <p id="class" style="float: left; padding-right: 3px; color: red; font-size: 19px;"><u>Lớp:</u> </p> <span id="className"></span> <div class="clear"></div>
+              <p id="someWordsFor" style="color: purple; font-size: 19px;"><u>Đôi lời muốn gửi:</u> </p> <span id="SWFContents"></span>
+            </div>
+
+            <p id="hover_guide">rê chuột qua <b>TÊN</b> để biết thêm chi tiết :3 </p>
+          </div>
+
+          <!-- Content Right Bottom -->
+          <div id="contentLast" class="bgCor_contentLast_p4">
+            <div id="ctnLast">
+              <p class="ctnL ct_1">Chúng em xin cảm ơn thầy cô đã xem đến cuối cùng.</p>
+
+              <p class="ctnL ct_2">Tuy ngắn nhưng đây là toàn bộ tấm lòng chân thành</p>
+              <p class="ctnL ct_3">mà chúng em muốn gửi tới thầy cô trong ngày 20/11</p>
+
+              <p class="ctnL ct_4">Đây là sản phẩm đầu tiên của chúng em, vướng mắc qua</p>
+              <p class="ctnL ct_5">bao khó khăn, thời gian bận rộn ở trên trường lớp</p>
+
+              <p class="ctnL ct_6">Nên không thể tránh khỏi khá nhiều những sai sót</p>
+              <p class="ctnL ct_7">và những quá trình chưa tối ưu khả năng của trang Web</p>
+
+              <p class="ctnL ct_8">Dù vậy, chúng em hi vọng thầy cô sẽ có ngày 20/11</p>
+              <p class="ctnL ct_9">thật vui vẻ, đáng nhớ và đầy ý nghĩa</p>
+
+              <p class="ctnL ct_10">Chúng em chúc mọi điều tốt đẹp nhất sẽ đến với thầy cô :3</p>
+            </div>
+
+            <div class="flex flex-row gap-3 py-3 allLD">
+              <img id="lgdev_1" class="hoverImgDev" style="float: left;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML5">
+              <img id="lgdev_2" class="hoverImgDev" style="float: left;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS3">
+              <img id="lgdev_3" class="hoverImgDev" style="float: left;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript">
+              <img id="lgdev_4" class="hoverImgDev" style="float: left;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" title="Bootstrap">
+              <img id="lgdev_5" class="hoverImgDev" style="float: left;" src="./img/Tailwind_CSS_Logo.svg.png" title="Tailwind CSS">
+              <img id="lgdev_6" class="hoverImgDev" style="float: left;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" title="Github">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./js/carousel.js"></script>
+    <script src="./js/showCarousel.js"></script>
+    <script src="./js/ngvn201122.js"></script>
+    <script src="./js/audio.js"></script>
+    <script src="./js/page4.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+  </body>
+</html>
